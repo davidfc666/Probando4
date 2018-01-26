@@ -1,0 +1,455 @@
+@media (min-width:320px){
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+header{
+	width: 100%;
+	height: 10%;
+	background-color: #e18013;
+}
+.cuerpo{
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+}
+.navegador, section, aside{
+	float: left;
+}
+.navegador{
+	width: 30%;
+	height: 100%;
+	padding: 0.5em;
+	box-sizing:border-box;
+}
+nav{
+	height: 100%;
+	width: 100%;
+}
+.menu{
+	height: auto;
+	width: auto;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+}
+ul, ul ul{
+	list-style: none;
+}
+.menu > li > a {
+    background-color: #e18013;
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    border-bottom: 1px solid #33373d;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    text-indent: 2em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    text-shadow: 0px 3px 3px rgba(0,0,0,.5);
+}
+.menu ul li a {
+    background: #fff;
+    border-bottom: 1px solid #efeff0;
+    width: 100%;
+    height: 2em;
+    line-height: 0.5em;
+    text-indent: 2em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: black;
+}
+.menu ul li:last-child a {
+    border-bottom: 1px solid #33373d;
+}
+.menu > li > a:hover{
+	color: grey;
+}
+.menu li ul li a:hover{
+	color: blue;
+	background-color: grey;
+}
+
+/**/
+section, article, article > header, article > footer{
+	padding: 0.5em;
+	box-sizing:border-box;
+}
+section{
+	/*background-color: blue;*/
+	height: 100%;
+	width: 40%;
+}
+article{
+	height: 45%;
+	width: 100%;
+	background-color: white;
+	border-radius: 1em;
+	box-sizing:border-box;
+	margin-top: 0.5em;
+}
+.article_body{
+	margin-top: 0.5em;
+	height: 75%;
+	font-size: 12px;
+}
+article > header, article > footer{
+	border-radius: 1em;
+}
+article > footer{
+	margin-top: -0.7em;
+}
+aside{
+	overflow:auto;
+	height: 100%;
+	width: 30%;
+	/*border: 1px solid;*/
+	border-radius: 1em;
+	padding: 2em;
+	box-sizing:border-box;
+}
+.aside_body{
+	/*border: 1px solid;*/
+	margin-top: 0.5em;
+	color: white;
+}
+footer{
+	width: 100%;
+	height: 5%;
+	background-color: #e18013;
+}
+h1{
+	text-align: center;
+	color: white;
+	position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p{
+	font-size: 12px;
+	font-weight: bold;
+}
+body > header > h1{
+	font-size: 3em;
+}
+}
+/*------------------------------------------------------------------*/
+@media only screen and (min-width:320px) and (max-width:480px){
+
+}
+/*------------------------------------------------------------------*/
+@media only screen and (min-width:480px) and (max-width:900px){
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+header{
+	width: 100%;
+	height: 15%;
+	/*background-color: #e18013;*/
+	background-color: red;
+}
+.cuerpo{
+	width: 100%;
+	height: 75%;
+	background-color: grey;
+}
+.navegador, section, aside{
+	float: left;
+}
+.navegador{
+	width: 30%;
+	height: 100%;
+	padding: 1em;
+	box-sizing:border-box;
+}
+nav{
+	height: 100%;
+	width: 100%;
+}
+.menu{
+	height: auto;
+	width: auto;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+}
+ul, ul ul{
+	list-style: none;
+}
+.menu > li > a {
+    background-color: #e18013;
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    border-bottom: 1px solid #33373d;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    width: 100%;
+    height: 2.75em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 3px 3px rgba(0,0,0,.5);
+}
+.menu ul li a {
+    background: #fff;
+    border-bottom: 1px solid #efeff0;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    text-indent: 2em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.923em;
+    font-weight: 400;
+    color: black;
+}
+.menu ul li:last-child a {
+    border-bottom: 1px solid #33373d;
+}
+.menu > li > a:hover{
+	color: grey;
+}
+.menu li ul li a:hover{
+	color: blue;
+	background-color: grey;
+}
+
+/**/
+section, article, article > header, article > footer{
+	padding: 0.5em;
+	box-sizing:border-box;
+}
+section{
+	/*background-color: blue;*/
+	height: 100%;
+	width: 40%;
+}
+article{
+	height: 45%;
+	width: 100%;
+	background-color: white;
+	border-radius: 1em;
+	box-sizing:border-box;
+	margin-top: 0.5em;
+}
+.article_body{
+	margin-top: 0.5em;
+	height: 75%;
+	font-size: 12px;
+}
+article > header, article > footer{
+	border-radius: 1em;
+}
+article > footer{
+	margin-top: -0.7em;
+}
+aside{
+	overflow:auto;
+	height: 100%;
+	width: 30%;
+	/*border: 1px solid;*/
+	border-radius: 1em;
+	padding: 2em;
+	box-sizing:border-box;
+}
+.aside_body{
+	/*border: 1px solid;*/
+	margin-top: 0.5em;
+	color: white;
+}
+footer{
+	width: 100%;
+	height: 10%;
+	background-color: #e18013;
+}
+h1{
+	text-align: center;
+	color: white;
+	position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p{
+	font-size: 12px;
+	font-weight: bold;
+}
+body > header > h1{
+	font-size: 3em;
+}
+}
+/*--------------------------------------------------------------------*/
+@media (min-width:1200px){
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+header{
+	width: 100%;
+	height: 15%;
+	background-color: #e18013;
+}
+.cuerpo{
+	width: 100%;
+	height: 75%;
+	background-color: grey;
+}
+.navegador, section, aside{
+	float: left;
+}
+.navegador{
+	width: 30%;
+	height: 100%;
+	padding: 1em;
+	box-sizing:border-box;
+}
+nav{
+	height: 100%;
+	width: 100%;
+}
+.menu{
+	height: auto;
+	width: auto;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+}
+ul, ul ul{
+	list-style: none;
+}
+.menu > li > a {
+    background-color: #e18013;
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    border-bottom: 1px solid #33373d;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    width: 100%;
+    height: 2.75em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 3px 3px rgba(0,0,0,.5);
+}
+.menu ul li a {
+    background: #fff;
+    border-bottom: 1px solid #efeff0;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    text-indent: 2em;
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.923em;
+    font-weight: 400;
+    color: black;
+}
+.menu ul li:last-child a {
+    border-bottom: 1px solid #33373d;
+}
+.menu > li > a:hover{
+	color: grey;
+}
+.menu li ul li a:hover{
+	color: blue;
+	background-color: grey;
+}
+
+/**/
+section, article, article > header, article > footer{
+	padding: 1em;
+	box-sizing:border-box;
+}
+section{
+	/*background-color: blue;*/
+	height: 100%;
+	width: 40%;
+}
+article{
+	height: 45%;
+	width: 100%;
+	background-color: white;
+	border-radius: 1em;
+	box-sizing:border-box;
+	margin-top: 1em;
+}
+.article_body{
+	height: 75%;
+}
+article > header, article > footer{
+	border-radius: 1em;
+}
+article > footer{
+	margin-top: -0.7em;
+}
+aside{
+	height: 100%;
+	width: 30%;
+	/*border: 1px solid;*/
+	border-radius: 1em;
+	padding: 2em;
+	box-sizing:border-box;
+}
+.aside_body{
+	/*border: 1px solid;*/
+	margin-top: 1em;
+	color: white;
+}
+footer{
+	width: 100%;
+	height: 10%;
+	background-color: #e18013;
+}
+h1{
+	text-align: center;
+	color: white;
+	position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p{
+	font-size: 18px;
+	font-weight: bold;
+}
+body > header > h1{
+	font-size: 4em;
+}
+}
